@@ -10,9 +10,9 @@ const footer = [
 
 export default function Footer () {
     return (
-        <section className='mt-16 bg-neutral-900'>
+        <section className='mt-16 bg-neutral-900 p-1'>
             <div className="container py-3 mx-autonpm ">
-                <div className='flex flex-col md:flex-row md:justify-between  gap-6 items-center '>
+                <div className='flex flex-col md:flex-row md:justify-between  gap-6 items-center mx-auto'>
                     <Link href='/'>
                         <Image src={Logo} alt='Logo' />
                     </Link>
