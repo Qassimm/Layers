@@ -10,8 +10,8 @@ const footer = [
 
 export default function Footer () {
     return (
-        <section className='mt-16 bg-neutral-900 p-1'>
-            <div className="container py-3 mx-auto">
+        <section className='mt-16 bg-neutral-900 lg:p-1'>
+            <div className="container py-3 mg:mx-auto">
                 <div className='flex flex-col md:flex-row md:justify-between  gap-6 items-center mx-auto'>
                     <Link href='/'>
                         <Image src={Logo} alt='Logo' />
