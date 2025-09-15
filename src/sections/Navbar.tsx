@@ -24,9 +24,9 @@ export default function Navbar() {
       <div className="container max-w-5xl ">
         <div className="border border-white/15 rounded-[27px] md:rounded-full bg-neutral-950/70 backdrop-blur-md md:backdrop-blur-lg">
           <div className="grid grid-cols-2 lg:grid-cols-3 p-2 px-4 md:pr-2 items-center">
-            <a href="/">
+            <Link href="/">
               <Image src={LogoImage} alt="Logo" className="h-9 w-auto" />
-            </a>
+            </Link>
 
             <div className="hidden lg:block  justify-center items-center">
               <nav className=" flex gap-6 font-light">
