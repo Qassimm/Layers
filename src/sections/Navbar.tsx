@@ -97,9 +97,9 @@ export default function Navbar() {
               >
                 <div className="flex flex-col items-center gap-4 py-4">
                   {navlinks.map((link) => (
-                    <a href={link.href} key={link.label} onClick={() => setIsOpen(false)}>
+                    <Link href={link.href} key={link.label} onClick={() => setIsOpen(false)}>
                       {link.label}
-                    </a>
+                    </Link>
                   ))}
                 
                 <Buttons variant="secondary" className="w-sm">

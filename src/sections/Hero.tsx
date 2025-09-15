@@ -39,7 +39,7 @@ export default function Hero() {
         [rightPointerScope.current, {x:0, y:[10,20,10]}, {duration:0.5}],
       
     ])
-  }, []);
+  }, );
 
   return (
     <section className="py-24  overflow-x-clip">
