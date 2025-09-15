@@ -13,13 +13,9 @@
   --font-sans: var(--font-poppins);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground: #ededed;
-  }
-}
+
+
 
 body {
-  color: var(--foreground);
   font-family: var(--font-poppins), Arial, Helvetica, sans-serif;
 }
